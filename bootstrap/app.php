@@ -41,6 +41,10 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+//$app->register(\Knuckles\Scribe\ScribeServiceProvider::class);
+
+//$app->configure('scribe');
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
